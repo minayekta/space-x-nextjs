@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../src/assets/image/2352.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+.home-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-image: -ms-linear-gradient(bottom, #0413e0e1 -50%, #fff 100%);
+    background-image: -moz-linear-gradient(bottom, #0413e0e1 -50%, #fff 100%);
+    background-image: -o-linear-gradient(bottom, #0413e0e1 43%, #fff 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-50, #0413e0e1), color-stop(100, #fff));
+    background-image: -webkit-linear-gradient(bottom, #0413e0e1 -50%, #fff 100%);
+    background-image: linear-gradient(to top, #0413e0e1 -50%, #fff 100%);
+    opacity: 0.5;
+}
+
+.info{
+    color: #fff;
+}
+.home-container-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh;
+    background-image: -ms-linear-gradient(bottom, #0413e0e1 -50%, #fff 100%);
+    background-image: -moz-linear-gradient(bottom, #0413e0e1 -50%, #fff 100%);
+    background-image: -o-linear-gradient(bottom, #0413e0e1 43%, #fff 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(-50, #0413e0e1), color-stop(100, #fff));
+    background-image: -webkit-linear-gradient(bottom, #0413e0e1 -50%, #fff 100%);
+    background-image: linear-gradient(to top, #0413e0e1 -50%, #fff 100%);
+    opacity: 0.5;
+}
+.logo-image {
+    width: 150px;
+    margin-left: 1em;
+}
+
+.bg-none {
+    background: none;
+}
+
+.box-shadow-none {
+    box-shadow: none;
+}
+
+.link-c, .link:hover {
+    color: #0413e0e1 !important;
+
+}
+
+.front-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.patch-image {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 100px;
+}
+
+.patch-img {
+    width: 100px;
+}
+
+.column-display {
+    flex-direction: column;
+    display: flex;
+    width: 15%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .column-display {
+        width: 70%;
+    }
+
+    .patch-image {
+        display: none;
+    }
+
+    .h-50vh {
+        height: 100vh;
+    }
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.h-50vh {
+    height: 50vh;
+}
+
+.h-200vh {
+    height: 100vh;
+}
+
+.text-shadow {
+    text-shadow: 1px 2px 3px #666;
+}
+
